@@ -28,21 +28,27 @@ A simple ToDo application built using Django and Django REST Framework.
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
+    
+3. **Install the dependencies**:
 
-3. **Run migrations**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+4. **Run migrations**:
 
     ```bash
     python manage.py makemigrations todo
     python manage.py migrate
     ```
 
-4. **Create a superuser**:
+5. **Create a superuser**:
 
     ```bash
     python manage.py createsuperuser
     ```
 
-5. **Run the development server**:
+6. **Run the development server**:
 
     ```bash
     python manage.py runserver
